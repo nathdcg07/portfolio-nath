@@ -166,7 +166,7 @@ export const dataPortfolio = [
         id: 1,
         title: "Mobile App",
         image: "/proyecto1.png",
-        urlGithub: "https://github.com/OnlyAbue-App/Fronted",
+        urlGithub: "https://github.com/OnlyAbue-App/Fronted"
     },
     // {
     //     id: 2,
