@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Nath Portfolio",
   description: "El portafolio más aesthetic 💜✨",
   icons:{
-    icon:'/nath-logo.png'
+    icon:'/other-icon.png'
   },
 };
 
