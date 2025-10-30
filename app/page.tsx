@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
     <main className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex items-center justify-center">
-      {/* <h1 className="text-4xl font-bold">¡Bienvenida Nath! ✨</h1> */}
       <TransitionPage/>
       <CoverParticles/>
       <Introduction/>

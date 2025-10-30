@@ -17,6 +17,9 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
   title: "Nath Portfolio",
   description: "El portafolio más aesthetic 💜✨",
+  icons:{
+    icon:'/nath-logo.png'
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +33,7 @@ export default function RootLayout({
         <Navbar />
         <Header />
          {children}
-</body>
+      </body>
     </html>
   );
 }

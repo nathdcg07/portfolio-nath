@@ -1,4 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { title } from "process";
 
 export const socialNetworks = [
     {
@@ -43,10 +44,25 @@ export const dataAboutPage = [
     subtitle: "Personal & Freelance Projects Currently",
     description:
       "I develop out of passion, creating digital experiences with attractive designs, useful features, and smooth animations that people love. Every line of code makes me happy :)",
-    date: "2025",
+    date: "NOW",
   },
   {
     id: 2,
+    title:"Amber Infussion Store App - Fronted",
+    subtitle:"University",
+    description: "I developed an pays methods, shopping cart and designed an mobile app focussed on coffee sale. This project developed in just 3 weeks.",
+    date:"July", 
+  },
+  {
+    id: 3,
+    title: "Python Academy | Learning Platform - Fullstack",
+    subtitle: "University",
+    description:
+    "I developed, designed and actually improve a functional project. Since design until the data bases was a made with love and passion. Focused on every section and necessities of user.",
+    date:"2025", 
+  },
+  {
+    id: 4,
     title: "Medication Reminder App - Backend Area",
     subtitle: "University",
     description:
@@ -54,7 +70,7 @@ export const dataAboutPage = [
     date: "2024",
   },
   {
-    id: 3,
+    id: 5,
     title: "National Basketball League System - Backend Area",
     subtitle: "University",
     description:
@@ -62,7 +78,7 @@ export const dataAboutPage = [
     date: "2023",
   },
   {
-    id: 4,
+    id: 6,
     title: "Backend Area - European Educational Site",
     subtitle: "European Business School",
     description:
@@ -70,7 +86,7 @@ export const dataAboutPage = [
     date: "2022",
   },
   {
-    id: 5,
+    id: 7,
     title: "Customer Service & Digital Support",
     subtitle: "Freelance",
     description:
@@ -78,7 +94,7 @@ export const dataAboutPage = [
     date: "2022",
   },
   {
-    id: 6,
+    id: 8,
     title: "Fullstack Dev - Online Store & Discount App",
     subtitle: "University",
     description:
@@ -86,7 +102,7 @@ export const dataAboutPage = [
     date: "2021",
   },
   {
-    id: 7,
+    id: 9,
     title: "First Freelance Projects",
     subtitle: "Start of My Journey",
     description:
@@ -94,7 +110,7 @@ export const dataAboutPage = [
     date: "2020",
   },
   {
-    id: 8,
+    id: 10,
     title: "Internships and Initial Projects",
     subtitle: "Self-Taught Exploration",
     description:
@@ -107,7 +123,7 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 5,
+        endCounter: 2,
         text: "Years of experience",
         lineRight: true,
         lineRightMobile: true,
@@ -161,29 +177,29 @@ export const serviceData = [
     },
 ];
 
-export const dataPortfolio = [
+  export const dataPortfolio = [
+      {
+          id: 1,
+          title: "Coffee Shop Mobile App",
+          image: "/amber.png",
+          urlGithub: "https://github.com/nathdcg07/Amber_Infusion_App"
+      },
     {
-        id: 1,
-        title: "Mobile App",
-        image: "/proyecto1.png",
-        urlGithub: "https://github.com/OnlyAbue-App/Fronted"
+        id: 2,
+        title: "Learning Plataform",
+        image: "/Python_academy.jpg",
+        urlGithub: "https://github.com/nathdcg07/Python_Academy",
     },
-    // {
-    //     id: 2,
-    //     title: "Desarrollo Web Ágil",
-    //     image: "/image-2.jpg",
-    //     urlGithub: "#!",
-    // },
     {
         id: 3,
-        title: "Creative Task Manager",
+        title: "Medication Reminder Mobile App",
+        image: "/proyecto1.png",
+        urlGithub: "https://github.com/OnlyAbue-App/Fronted",
+    },
+    {
+        id: 4,
+        title: "Creative To-Do App",
         image: "/proyecto3.png",
         urlGithub: "https://github.com/nathdcg07/gestor-tareas-react",
     },
-    // {
-    //     id: 4,
-    //     title: "Ideas Creativas",
-    //     image: "/image-4.jpg",
-    //     urlGithub: "#!",
-    // },
 ];

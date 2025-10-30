@@ -37,7 +37,7 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto mb-4 text-base md:text-lg text-purple-200 md:mx-0 md:mb-8">
-                        Like a developer and digital creative, I love combining design and functionality to create beautiful, accessible, and intuitive experiences.
+                        As a developer and digital creative, I love combining design and functionality to create beautiful, accessible, and intuitive experiences.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-8">

@@ -14,7 +14,7 @@ const PortfolioPage = () => {
 
     return (
         <ContainerPage>
-            <TransitionPage />¿
+            <TransitionPage />
             <CircleImage />
             <div className="flex flex-col justify-center h-full">
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">My last <span className="font-bold text-secondary">works done</span></h1>
