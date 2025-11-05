@@ -123,7 +123,7 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 2,
+        endCounter: 3,
         text: "Years of experience",
         lineRight: true,
         lineRightMobile: true,
@@ -192,7 +192,7 @@ export const serviceData = [
     },
     {
         id: 3,
-        title: "Medication Reminder Mobile App",
+        title: "Medication Reminder App",
         image: "/proyecto1.png",
         urlGithub: "https://github.com/OnlyAbue-App/Fronted",
     },

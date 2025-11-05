@@ -8,15 +8,7 @@ const Introduction = () => {
     return (
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
                 <div className="flex flex-col justify-right max-w-md text-white">
-                   {/* <Image
-                            src="/avatar1.png"
-                            width={320}
-                            height={320}
-                            alt="Avatar de Nath"
-                            className="rounded-2xl object-cover"
-                            priority
-                            /> */}
-
+                   
                     <Avatar/>
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
                         Every line of code can tell your story. <br />
