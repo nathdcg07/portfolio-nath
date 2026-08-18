@@ -16,24 +16,20 @@ const PortfolioPage = () => {
         <ContainerPage>
             <TransitionPage />
             <CircleImage />
-            <>
-            <div className="flex flex-col justify-center h-full">
-                <h1 className="text-2xl leading-tight text-center md:text-3xl md:mb-5">My last <span className="font-bold text-secondary">works done</span></h1>
+            <div className="flex flex-col w-full">
+                <h1 className="text-2xl leading-tight text-center md:text-4xl mb-10">My last <span className="font-bold text-secondary">works done</span></h1>
 
-                <div className="relative z-10 grid max-h-80 max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-4 full">
+                <div className="relative z-10 grid w-full gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {dataPortfolio.map((data) => (
                         <PortfolioBox key={data.id} data={data} />
                     ))}
                 </div>
             </div>
-            
-            
-           
+              
         <CoverParticles/>
             <div>
 
             </div>
-    </>
         </ContainerPage>
          
     );

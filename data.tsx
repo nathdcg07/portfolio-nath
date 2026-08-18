@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Rss, Mail, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { title } from "process";
 
 export const socialNetworks = [
@@ -7,6 +7,11 @@ export const socialNetworks = [
         logo: <Linkedin size={30} strokeWidth={1} />,
         src: "https://www.linkedin.com/in/nathaly-dalcy-conde-gutierrez-5846a4240",
     },
+    {
+        id: 3,
+        logo: <Mail size={30} strokeWidth={1} />,
+        src: "mailto:nathalydcgutierrez@gmail.com",
+    }
 ];
 
 
@@ -48,13 +53,20 @@ export const dataAboutPage = [
   },
   {
     id: 2,
-    title:"Amber Infussion Store App - Fronted",
+    title:"ERP Inventory System - Fullstack",
     subtitle:"University",
-    description: "I developed an pays methods, shopping cart and designed an mobile app focussed on coffee sale. This project developed in just 3 weeks.",
-    date:"July", 
+    description: "I built a ERP inventory system based on modern web technologies applied Monte Carlo Model. This project developed in just 1 month.",
+    date:"2026", 
   },
   {
     id: 3,
+    title:"Amber Infussion Store App - Fronted",
+    subtitle:"University",
+    description: "I developed an pays methods, shopping cart and designed an mobile app focussed on coffee sale. This project developed in just 3 weeks.",
+    date:"2025", 
+  },
+  {
+    id: 4,
     title: "Python Academy | Learning Platform - Fullstack",
     subtitle: "University",
     description:
@@ -62,7 +74,7 @@ export const dataAboutPage = [
     date:"2025", 
   },
   {
-    id: 4,
+    id: 5,
     title: "Medication Reminder App - Backend Area",
     subtitle: "University",
     description:
@@ -70,7 +82,7 @@ export const dataAboutPage = [
     date: "2024",
   },
   {
-    id: 5,
+    id: 6,
     title: "National Basketball League System - Backend Area",
     subtitle: "University",
     description:
@@ -78,7 +90,7 @@ export const dataAboutPage = [
     date: "2023",
   },
   {
-    id: 6,
+    id: 7,
     title: "Backend Area - European Educational Site",
     subtitle: "European Business School",
     description:
@@ -86,7 +98,7 @@ export const dataAboutPage = [
     date: "2022",
   },
   {
-    id: 7,
+    id: 8,
     title: "Customer Service & Digital Support",
     subtitle: "Freelance",
     description:
@@ -94,7 +106,7 @@ export const dataAboutPage = [
     date: "2022",
   },
   {
-    id: 8,
+    id: 9,
     title: "Fullstack Dev - Online Store & Discount App",
     subtitle: "University",
     description:
@@ -102,7 +114,7 @@ export const dataAboutPage = [
     date: "2021",
   },
   {
-    id: 9,
+    id: 10,
     title: "First Freelance Projects",
     subtitle: "Start of My Journey",
     description:
@@ -110,7 +122,7 @@ export const dataAboutPage = [
     date: "2020",
   },
   {
-    id: 10,
+    id: 11,
     title: "Internships and Initial Projects",
     subtitle: "Self-Taught Exploration",
     description:
@@ -178,28 +190,38 @@ export const serviceData = [
 ];
 
   export const dataPortfolio = [
-      {
+    {
           id: 1,
+          title: "ERP System",
+          image: "/erp.png",
+          urlGithub: "https://github.com/nathdcg07/Sistema_Inventarios",
+          urlDemo: "https://sistema-inventarios-hnwa.vercel.app/"
+      },
+      {
+          id: 2,
           title: "Coffee Shop Mobile App",
           image: "/amber.png",
-          urlGithub: "https://github.com/nathdcg07/Amber_Infusion_App"
+          urlGithub: "https://github.com/nathdcg07/Amber_Infusion_App",
+          urlDemo: "#"
       },
     {
-        id: 2,
+        id: 3,
         title: "Learning Plataform",
         image: "/Python_academy.jpg",
         urlGithub: "https://github.com/nathdcg07/Python_Academy",
-    },
-    {
-        id: 3,
-        title: "Medication Reminder App",
-        image: "/proyecto1.png",
-        urlGithub: "https://github.com/OnlyAbue-App/Fronted",
+        urlDemo: "#"
     },
     {
         id: 4,
-        title: "Creative To-Do App",
-        image: "/proyecto3.png",
-        urlGithub: "https://github.com/nathdcg07/gestor-tareas-react",
+        title: "Medication Reminder App",
+        image: "/proyecto1.png",
+        urlGithub: "https://github.com/OnlyAbue-App/Fronted",
+        urlDemo: "#"
     },
+    // {
+    //     id: 5,
+    //     title: "Creative To-Do App",
+    //     image: "/proyecto3.png",
+    //     urlGithub: "https://github.com/nathdcg07/gestor-tareas-react",
+    // },
 ];

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Footer from "@/components/footer";
 
 import { Urbanist } from "next/font/google";
 import Navbar from "@/components/navbar";
@@ -16,7 +16,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "Nath Portfolio",
-  description: "El portafolio más aesthetic 💜✨",
+  description: "Welcome to my portfolio! Come into my world 💜✨",
   icons:{
     icon:'/other-icon.png'
   },
@@ -29,10 +29,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${urbanist.variable} font-sans bg-black text-white`}>
-        <Navbar />
+      <body className={`${urbanist.variable} font-sans bg-black text-white antialiased`}>
+       
         <Header />
-         {children}
+        
+        
+        <Navbar />
+        
+        <main className="relative z-10 min-h-screen flex flex-col justify-between"> {children}</main>
+          {/* <div className="flex-grow">
+          </div> */}
+          <Footer />
       </body>
     </html>
   );

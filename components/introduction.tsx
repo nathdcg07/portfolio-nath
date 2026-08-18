@@ -35,7 +35,7 @@ const Introduction = () => {
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-8">
                         <a
                             href="/portfolio"
-                            className="px-4 py-2 my-2 text-sm md:text-base transition-all border border-white rounded-xl hover:shadow-lg hover:bg-white/10"
+                            className="px-4 py-2 my-2 text-sm md:text-base transition-all border cursor-pointer border-white rounded-xl hover:shadow-lg hover:bg-white/10"
                         >
                             See proyects
                         </a>
